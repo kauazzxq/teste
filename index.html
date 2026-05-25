@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot do Kauã</title>
+
+    <!-- CSS CORRIGIDO -->
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i class="fas fa-robot"></i>
+                    <span>ChatBot</span>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item active">
+                    <i class="fas fa-comment-dots"></i>
+                    <span>Conversas</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fas fa-history"></i>
+                    <span>Histórico</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fas fa-star"></i>
+                    <span>Favoritos</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fas fa-cog"></i>
+                    <span>Configurações</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="user-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="user-info">
+                        <span class="user-name">Usuário</span>
+                        <span class="user-status">Online</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main -->
+        <main class="main-content">
+
+            <!-- HEADER -->
+            <header class="chat-header">
+                <div class="bot-info">
+                    <div class="bot-avatar-container">
+
+                        <!-- IMAGEM CORRIGIDA -->
+                        <img src="robo2.jpg" alt="Bot Avatar" class="bot-avatar">
+
+                        <span class="online-dot"></span>
+                    </div>
+
+                    <div class="header-text">
+                        <h1>ChatBot do Kauã</h1>
+                        <span class="status">
+                            <i class="fas fa-circle"></i>
+                            Online agora
+                        </span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- MENSAGENS -->
+            <div class="chat-messages">
+
+                <div class="message bot-message">
+                    <div class="message-wrapper">
+                        <img src="robo2.jpg" class="message-avatar">
+                        <div class="message-content">
+                            <div class="message-bubble">
+                                <p>Olá! 👋</p>
+                                <p>Como posso ajudar você?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- INPUT -->
+            <div class="chat-input-container">
+                <div class="input-wrapper">
+                    <input type="text" placeholder="Digite sua mensagem...">
+                </div>
+
+                <button class="send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>
